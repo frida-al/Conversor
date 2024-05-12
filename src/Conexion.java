@@ -4,7 +4,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class Connection {
+public class Conexion {
     public static String FetchHTTP(String uriResource) {
 
         try {
