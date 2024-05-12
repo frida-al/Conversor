@@ -1,7 +1,7 @@
-public class Currency {
+public class Divisa {
     public final double conversion;
 
-    public Currency(CurrencyExchangeAPI currencyExchangeAPI) {
+    public Divisa(CurrencyExchangeAPI currencyExchangeAPI) {
         this.conversion = currencyExchangeAPI.conversion_result();
     }
 
